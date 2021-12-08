@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactTry"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"Sftp_password": {
+			"value": ""
+		},
+		"Sftp_properties_typeProperties_host": {
+			"value": "mfahxaaa3zn6u.eastus.azurecontainer.io"
+		},
+		"Sftp_properties_typeProperties_userName": {
+			"value": "sftp"
+		}
+	}
+}
