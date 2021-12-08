@@ -1,0 +1,47 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/upload"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "miles",
+				"type": "String"
+			},
+			{
+				"name": "debt",
+				"type": "String"
+			},
+			{
+				"name": "income",
+				"type": "String"
+			},
+			{
+				"name": "sales",
+				"type": "String"
+			}
+		]
+	}
+}
