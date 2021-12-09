@@ -39,7 +39,8 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "age"
+									"type": "String",
+									"ordinal": 1
 								},
 								"sink": {
 									"name": "age",
@@ -49,8 +50,8 @@
 							},
 							{
 								"source": {
-									"name": "gender",
-									"type": "String"
+									"type": "String",
+									"ordinal": 2
 								},
 								"sink": {
 									"name": "gender",
@@ -60,8 +61,8 @@
 							},
 							{
 								"source": {
-									"name": "miles",
-									"type": "String"
+									"type": "String",
+									"ordinal": 3
 								},
 								"sink": {
 									"name": "miles",
@@ -71,8 +72,8 @@
 							},
 							{
 								"source": {
-									"name": "debt",
-									"type": "String"
+									"type": "String",
+									"ordinal": 4
 								},
 								"sink": {
 									"name": "debt",
@@ -82,8 +83,8 @@
 							},
 							{
 								"source": {
-									"name": "income",
-									"type": "String"
+									"type": "String",
+									"ordinal": 5
 								},
 								"sink": {
 									"name": "income",
@@ -93,8 +94,8 @@
 							},
 							{
 								"source": {
-									"name": "sales",
-									"type": "String"
+									"type": "String",
+									"ordinal": 6
 								},
 								"sink": {
 									"name": "sales",
